@@ -1,12 +1,60 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpaperaccess.com/full/1579893.jpg);
+    min-height: 100vh;
+}
 
-/* 
+.tube {
+    margin: auto;
+    background-color: black;
+    height: 45px;
+    width: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#Light {
+    background: hsla(0, 0%, 0%, 1);
+    background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 15%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 15%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 15%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#252525", GradientType=1);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 240px;
+}
 
-*/
+.colorRed {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 100%;
+    font-size: 65px;
+    margin-top: 15px;
+}
+
+.colorYellow {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 100%;
+    font-size: 65px;
+    margin-top: 5px;
+}
+
+.colorBlue {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 100%;
+    font-size: 65px;
+    margin-top: 5px;
+}
+
+.active {
+    -webkit-box-shadow: 0px 0px 84px 8px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 84px 8px rgb(255, 255, 255);
+    box-shadow: 0px 0px 84px 8px rgb(255, 255, 255);
+}
